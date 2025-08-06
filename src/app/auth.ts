@@ -3,7 +3,7 @@ import { cookies as getCookies } from "next/headers"
 
 export const client = createClient({
   clientID: "test_client_nextjs",
-  issuer: "http://127.0.0.1:8787",
+  issuer: "https://test-openauth.dahekar30sahil.workers.dev",
 })
 
 import { createSubjects } from "@openauthjs/openauth/subject";
